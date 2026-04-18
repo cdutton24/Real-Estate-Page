@@ -2,61 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Your Name Real Estate</title>
+  <title>Kate Dutton | Premier Real Estate Agent | Hoboken NJ</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-    }
-    section {
-      padding: 60px 20px;
-      text-align: center;
-    }
-    .hero {
-      background: url('images/hero.jpg') center/cover no-repeat;
-      color: white;
-      padding: 100px 20px;
-    }
-    .btn {
-      display: inline-block;
-      padding: 12px 20px;
-      margin: 10px;
-      background: #007BFF;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    .property {
-      display: inline-block;
-      width: 300px;
-      margin: 10px;
-    }
-    .property img {
-      width: 100%;
-    }
-    .sticky-cta {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      background: #000;
-      padding: 10px;
-    }
-    .sticky-cta a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-  </style>
+  <meta name="description" content="Kate Dutton - Premier real estate agent serving Hoboken, NJ. Get instant home valuations, expert property guidance, and professional real estate services.">
+  <meta name="keywords" content="real estate, Hoboken, Jersey City, home valuation, buy house, sell house, real estate agent, Kate Dutton">
+  <meta name="author" content="Kate Dutton Real Estate">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Kate Dutton | Premier Real Estate Agent | Hoboken NJ">
+  <meta property="og:description" content="Premier real estate agent serving Hoboken, NJ. Get instant home valuations, expert property guidance, and professional real estate services.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="images/hero.jpg">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kate Dutton | Premier Real Estate Agent | Hoboken NJ">
+  <meta name="twitter:description" content="Premier real estate agent serving Hoboken, NJ. Get instant home valuations and expert property guidance.">
+  <meta name="twitter:image" content="images/hero.jpg">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
+<!-- Skip to main content for accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- Header with Navigation -->
+<header class="site-header">
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <h1 class="brand-title">Kate Dutton Real Estate</h1>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#properties" class="nav-link">Properties</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Main Content -->
+<main id="main-content">
+
 <!-- 🔥 HERO SECTION -->
 <section class="hero">
-  <h1>Find Out What Your Home Is Worth in Hoboken — Instantly</h1>
+  <h1>Find Out What Your Home Is Worth — Instantly</h1>
   <p>Get a real-time estimate + monthly updates on your home’s value.</p>
 
   <!-- 🔑 PASTE HOMEBOT SELLER WIDGET BELOW -->
@@ -81,32 +84,89 @@
 
 
 <!-- 🏡 LISTINGS -->
-<section>
+<section id="properties">
   <h2>Featured Properties</h2>
+  <p class="section-description">Exclusive homes in prime Hoboken & Jersey City locations</p>
 
-  <div class="property">
-    <img src="images/house1.jpg" alt="">
-    <h3>2BR Condo – Hoboken</h3>
-    <p>$825,000</p>
-    <a href="#contact" class="btn">Schedule a Tour</a>
+  <div class="properties-container">
+    <div class="property">
+      <img src="images/house1.jpg" alt="Modern luxury home in Hoboken with premium finishes" loading="lazy">
+      <div class="property-content">
+        <div class="property-header">
+          <h3>Luxury Modern Condo</h3>
+          <p class="location">📍 Hoboken Heights</p>
+        </div>
+        <div class="property-details">
+          <p class="price">$825,000</p>
+          <div class="property-stats">
+            <span class="stat">2 Beds</span>
+            <span class="stat">2 Baths</span>
+            <span class="stat">1,250 sqft</span>
+          </div>
+          <div class="property-features">
+            <span class="feature">✓ Luxury Finishes</span>
+            <span class="feature">✓ City Views</span>
+            <span class="feature">✓ Modern Kitchen</span>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-primary">Schedule Private Tour</a>
+      </div>
+    </div>
+
+    <div class="property">
+      <img src="images/house2.jpg" alt="Penthouse loft with panoramic Manhattan skyline views" loading="lazy">
+      <div class="property-content">
+        <div class="property-header">
+          <h3>Penthouse Loft</h3>
+          <p class="location">📍 Jersey City Waterfront</p>
+        </div>
+        <div class="property-details">
+          <p class="price">$1,200,000</p>
+          <div class="property-stats">
+            <span class="stat">3 Beds</span>
+            <span class="stat">2 Baths</span>
+            <span class="stat">1,800 sqft</span>
+          </div>
+          <div class="property-features">
+            <span class="feature">✓ Panoramic Views</span>
+            <span class="feature">✓ Rooftop Terrace</span>
+            <span class="feature">✓ Designer Finishes</span>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-primary">Exclusive Viewing</a>
+      </div>
+    </div>
   </div>
-
-  <div class="property">
-    <img src="images/house2.jpg" alt="">
-    <h3>Luxury Loft – Jersey City</h3>
-    <p>$1,200,000</p>
-    <a href="#contact" class="btn">Schedule a Tour</a>
-  </div>
-
 </section>
 
 
 <!-- 💬 TRUST -->
-<section>
-  <h2>Your Local Real Estate Expert</h2>
-  <p>✔ 10+ years in Hudson County</p>
-  <p>✔ 100+ homes sold</p>
-  <p>✔ Fast closings, strong negotiations</p>
+<section class="trust-section" id="about">
+  <h2>Your Trusted Real Estate Expert</h2>
+  <p class="section-description">Delivering exceptional results with integrity and market expertise</p>
+  <div class="trust-grid">
+    <div class="trust-item">
+      <div class="trust-icon">🏆</div>
+      <div class="trust-content">
+        <h3>10+ Years Experience</h3>
+        <p>Deep knowledge of Hudson County real estate market trends and property values</p>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">🏠</div>
+      <div class="trust-content">
+        <h3>100+ Homes Sold</h3>
+        <p>Proven track record of successful transactions and satisfied clients</p>
+      </div>
+    </div>
+    <div class="trust-item">
+      <div class="trust-icon">⚡</div>
+      <div class="trust-content">
+        <h3>Expert Negotiations</h3>
+        <p>Securing best deals and smooth closing processes for every client</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 
